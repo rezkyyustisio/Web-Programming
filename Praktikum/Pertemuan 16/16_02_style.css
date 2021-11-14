@@ -1,0 +1,76 @@
+.wrap {
+	background: black;
+}
+
+* {
+	margin: 0 0 0 0;
+}
+
+/* bagian header */
+.wrap .header {
+	background: #333;
+	color: white;
+	font-family: arial;
+	padding: 2px 10px;
+	height: 100px;
+	padding-top: 30px;
+}
+/* akhir header */
+
+/* bagian menu */
+
+.wrap .menu ul {
+	padding: 0;
+	margin: 0;
+	background: white;
+	overflow: hidden;
+}
+
+.wrap .menu .navigasi {
+	margin-top: -16px;
+}
+
+.wrap .menu ul li {
+	float: right;
+	list-style-type: none;
+	padding: 10px;
+}
+
+.wrap .menu ul li a {
+	text-decoration: none;
+	font-family: verdana;
+	text-decoration: underline;
+}
+
+.clear {
+	clear: both;
+}
+
+.badan {
+	height: 450px;
+}
+
+/* bagian sidebar */
+.wrap .badan .sidebar {
+	background: white;
+	float: left;
+	width: 25%;
+	height: 100%;
+}
+/* akhir sidebar */
+
+.wrap .badan .content {
+	background: white;
+	float: left;
+	height: 100%;
+	width: 75%;
+}
+
+.wrap .footer {
+	width: 100%;
+	padding: 10px;
+	background-color: #333;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}

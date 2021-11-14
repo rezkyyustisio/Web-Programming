@@ -1,0 +1,94 @@
+body {
+	background: -webkit-linear-gradient(bottom, #00ffae, #005eff);
+	background-repeat: no-repeat;
+}
+
+#card {
+	width: 330px;
+	height: 410px;
+	background-color: #fbfbfb;
+	border-radius: 8px;
+	box-shadow: 1px 2px 8px grey;
+	margin: 10rem auto 8.1rem auto;
+}
+
+#card-content {
+	padding: 12px 44px;
+}
+
+#card-title {
+	font-family: Verdana, Arial, "Times New Roman", sans-serif;
+	letter-spacing: 4px;
+	padding-bottom: 24px;
+	padding-top: 12px;
+	text-align: center;
+}
+
+.underline-title {
+	background: -webkit-linear-gradient(right, #00ffae, #005eff);
+	height: 2px;
+	margin: -1.1rem auto 0 auto;
+	width: 180px;
+}
+
+.form {
+	align-items: left;
+	display: flex;
+	flex-direction: column;
+}
+
+.form-border {
+	background: -webkit-linear-gradient(right, #00ffae, #005eff);
+	height: 1px;
+	width: 100%;
+}
+
+.form-content {
+	background: #fbfbfb;
+	border: none;
+	outline: none;
+	padding-top: 15px;
+}
+
+#forgot-pass {
+	color: #005eff;
+	font-family: Verdana, Arial, "Times New Roman", sans-serif;
+	font-size: 10pt;
+	margin-top: 4px;
+	text-align: right;
+}
+
+a {
+	text-decoration: none;
+}
+
+#submit-btn {
+	background: -webkit-linear-gradient(right, #00ffae, #005eff);
+	border: none;
+	border-radius: 100px;
+	box-shadow: 0px 1px 8px #ddd;
+	cursor: pointer;
+	font-family: Verdana, Arial, "Times New Roman", sans-serif;
+	height: 45px;
+	margin: 0 auto;
+	margin-top: 35px;
+	transition: 0.25s;
+	width: 150px;
+	color: white;	
+
+}
+
+#submit-btn:hover {
+	box-shadow: 0px 1px 18px #24c64f;
+}
+
+#signup {
+	color: #005eff;
+	font-family: Verdana, Arial, "Times New Roman", sans-serif;
+	font-size: 10pt;
+	margin-top: 4px;
+	text-align: right;
+	margin-top: 15px;
+}
+
+/* 3201816021 / Rezky Yustisio Hadi Pratama*/
